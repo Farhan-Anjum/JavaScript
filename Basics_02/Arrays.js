@@ -58,7 +58,9 @@ console.log(myn2);
 
 
 
-//Difference:Change the original array or Manipulate the original array - take out the portio
+//Difference:Change the original array or Manipulate the original array - take out the portion
+
+//++++++++++++++Some New Concepts ++++++++++++++++++++
 
 const marvel_heroes = ["thor", "Ironman", "Spiderman"]
 const dc_heroes = ["Superman", "Flash", "Batman"]
