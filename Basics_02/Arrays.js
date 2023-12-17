@@ -57,14 +57,8 @@ const myn2 = myArr.splice(1, 3);
 console.log(myn2);
 
 
-//Difference:Change the original array or Manipulate the original array - take out the portion
 
-
-
-
-
-
-
+//Difference:Change the original array or Manipulate the original array - take out the portio
 
 
 
