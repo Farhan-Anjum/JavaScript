@@ -45,3 +45,85 @@ JsUsers.greetingTwo = function(){
 }
 console.log(JsUsers.greeting());
 console.log(JsUsers.greetingTwo());
+
+
+
+//++++++++++++++++++ Objects part 2 ++++++++++++++++++
+
+
+//const tinderUser = new Object(); //Also an Object
+
+const tinderUser = {}
+
+tinderUser.id = "123abc"
+tinderUser.name = "Farhan"
+tinderUser.isLoggedIn = false
+
+console.log(tinderUser);
+
+
+
+
+const regularUser = [
+    email: "some@gamil"
+    fullname: {
+        userFullName :{
+            firstName : "Farhan"
+            LastName : "Anjum"
+        }
+    }
+]
+
+console.log(regularUser.fullname.userFullName.firstName);
+
+
+const obj1 = {
+    1: "a", 2: "b"
+}
+
+const obj2 = {
+    3: "c", 4: "d"
+}
+
+//const obj3 = {obj1, obj2} //there will be problem
+
+const obj3 = Object.assign({}, obj1, obj2)
+
+
+console.log(obj3);
+
+
+const obj4 = {..obj1, ...obj2}
+console.log(obj4);
+
+
+
+
+const users = [
+    {
+        id: 1
+        email: "farhan@gaml.com"
+    },
+    {
+        id: 2
+        email: "farhan@gaml.com"
+    },
+    {
+        id: 3
+        email: "farhan@gaml.com"
+    },
+]
+users[1].email
+
+console.log(tinderUser);
+
+console.log(Object.keys(tinderUser)); //very important
+console.log(Object.values(tinderUser)); //very important
+
+console.log(Object.entries(tinderUser));
+
+
+console.log(tinderUser.hasOwnProperty('isLogged'));
+
+
+
