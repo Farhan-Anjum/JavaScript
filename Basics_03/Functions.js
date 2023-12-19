@@ -98,3 +98,55 @@ function loginUserMessage(userName = "Sam"){
    return `${userName} just Logged In`
 
 }
+
+//+++++++++++++++++=== Functions with Objs and Arrays +++++++++++++++++++
+function calculateCartPrice(num1){
+        return num1
+
+}
+console.log(calculateCartPrice(2));
+
+//Rest Operators or Spread Operator // ... is a rest or spread opt
+
+function calculateCartPrice(...num1){
+    return num1
+
+}
+console.log(calculateCartPrice(200, 400, 500));
+
+
+
+//Objects // How to pass objs in Function
+
+const User = {
+    userName = "Farhan",
+    price: 199
+}
+
+
+
+function handleObject(anyobject){
+    console.log(`Username is ${anyobject.username} and price is 
+    ${anyobject.price}`);
+}
+
+handleObject(user)
+
+handleObject({
+    username: "Same",
+    price: 399
+})
+
+
+//For arrays
+
+const myNewArray = [200, 400, 600, 700]
+
+function returnedSecondValue(getArray){
+    return getArray[1]
+}
+
+
+console.log(returnedSecondValue(myNewArray)); //400
+console.log(returnedSecondValue([200, 400, 600, 700])); //400
+
