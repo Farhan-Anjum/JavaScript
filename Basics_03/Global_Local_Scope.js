@@ -26,3 +26,62 @@ console.log("INNER: " , a);
 for (i =0; i <Array.length; i++){
      const element = array[i];
 }
+
+//Nested Scope
+
+
+function one(){
+     const username: "Farhan"
+
+
+     function two(){
+          const website = "youtube"
+          console.log(username);
+
+     }
+     console.log(website);
+
+     two()
+}
+
+
+one()
+
+if(true){
+
+     const username = "hitesh"
+     if (username === "hitesh"){
+          const website = " youtube"
+          console.log(username + website);
+     }
+
+  //console.log(website);
+
+}
+
+//console.log(username); 
+
+
+// ++++++++++++++++++++ Interesting +++++++++++++++++++++++
+
+function  addone(num){
+     return num +1
+}
+
+
+addone(5)
+
+
+const addTwo = function(num){
+     return num + 2
+}
+
+addTwo(5)
+
+///Accessing the function before declaration - initiate hoisting
+
+addTwo(5)
+const addTwo = function(num){
+     return num + 2
+}
+
