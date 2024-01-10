@@ -1,12 +1,12 @@
-#Projects related to DOM
+# Projects related to DOM
 
-#Solution Code
+# Solution Code
 
 
-##Project 1
+## Project 1 Solution Code
+## Background Color Changer
 
 ```javascript
-console.log("hitesh")
 const buttons = document.querySelectorAll('.button');
 const body = document.querySelector('body');
 
