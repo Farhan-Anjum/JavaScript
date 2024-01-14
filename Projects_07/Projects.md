@@ -210,7 +210,7 @@ window.addEventListener('keydown', (e) => {
 ```
 
 ## Project 6 Solution Code
-##Generate a random color
+## Generate a random color
 
 ```javascript
 //generate a random color
