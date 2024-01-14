@@ -180,7 +180,7 @@ function newGame() {
 
 
 ## Project 5 Solution Code
-## Random Number game
+## Key and Code
 
 ```javascript
 const insert = document.getElementById('insert');
@@ -210,7 +210,7 @@ window.addEventListener('keydown', (e) => {
 ```
 
 ## Project 6 Solution Code
-## Random Number game
+##Generate a random color
 
 ```javascript
 //generate a random color
